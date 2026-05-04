@@ -1,0 +1,83 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Segoe UI', sans-serif;
+	background: linear-gradient(135deg, #1e1e2f, #3a3a60);
+	height: 100vh;
+}
+
+/* center wrapper */
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+/* container */
+#container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 40px;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+/* card */
+.quote-card {
+	background: linear-gradient(135deg, #ffffff, #f3f3ff);
+	border-radius: 20px;
+	padding: 25px;
+	position: relative;
+	transition: 0.3s;
+	border: 2px dashed #6c63ff;
+}
+
+.quote-card:hover {
+	transform: translateY(-10px) scale(1.02);
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* quote text */
+.quote-text {
+	font-size: 16px;
+	color: #333;
+	line-height: 1.7;
+	margin-bottom: 25px;
+	position: relative;
+}
+
+/* quote icon */
+.quote-text::before {
+	content: '“';
+	font-size: 50px;
+	color: #6c63ff;
+	position: absolute;
+	top: -20px;
+	left: -10px;
+}
+
+/* bottom */
+.bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* author */
+.author {
+	font-weight: bold;
+	color: #444;
+}
+
+/* tag */
+.tag {
+	background: #6c63ff;
+	color: #fff;
+	padding: 5px 12px;
+	border-radius: 12px;
+	font-size: 12px;
+}
