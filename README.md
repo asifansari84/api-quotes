@@ -23,9 +23,10 @@ REST API
 📁 Project Structure
 
 quotes-api/
+│── src
+──│── style.css
+──│── main.js
 │── index.html
-│── style.css
-│── script.js
 │── README.md
 
 ## 🚀 Getting Started
