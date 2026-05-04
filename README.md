@@ -34,20 +34,22 @@ quotes-api/
    git clone https://github.com/your-username/quotes-api.git
 2. Open project
    Simply open index.html in your browser
-   🛠️ How to Use
-   Open the live project or run locally
-   Quotes will load automatically from API
-   Each card displays:
-   Quote text
-   Author name
-   Tags
-   📌 What I Learned
-   Working with APIs in JavaScript
-   Handling asynchronous requests (fetch)
-   Parsing JSON data
-   Dynamically updating UI using DOM
-   Structuring clean frontend projects
-   🤝 Contributing
+3. 🛠️ How to Use
+4. Open the live project or run locally
+5. Quotes will load automatically from API
+   - Each card displays:
+   - Quote text
+   - Author name
+   - Tags
+
+## 📌 What I Learned
+
+- Working with APIs in JavaScript
+- Handling asynchronous requests (fetch)
+- Parsing JSON data
+- Dynamically updating UI using DOM
+- Structuring clean frontend projects
+- 🤝 Contributing
 
 Contributions are welcome! Feel free to fork the project and improve it.
 
