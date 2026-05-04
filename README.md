@@ -1,29 +1,34 @@
-💬 Quotes Generator
+# 💬 Quotes Generator
 
 A clean and simple web application that fetches and displays meaningful quotes from a public API. This project demonstrates API integration, asynchronous JavaScript, and dynamic UI rendering using Vanilla JavaScript.
 
-🌐 Live Demo
+## 🌐 Live Demo
 
 👉 https://api-quotes-three.vercel.app/
 
-⚙️ Tech Stack
+## ⚙️ Tech Stack
+
 HTML5
 CSS3
 JavaScript (ES6+)
 REST API
-✨ Features
+
+## ✨ Features
+
 💬 Fetch and display quotes dynamically
 ⚡ Fast and lightweight performance
 🔄 Real-time data fetching using API
 🧩 Clean and structured UI layout
 📱 Responsive design
 📁 Project Structure
+
 quotes-api/
 │── index.html
 │── style.css
 │── script.js
 │── README.md
-🚀 Getting Started
+
+## 🚀 Getting Started
 
 1. Clone the repository
    git clone https://github.com/your-username/quotes-api.git
@@ -46,10 +51,10 @@ quotes-api/
 
 Contributions are welcome! Feel free to fork the project and improve it.
 
-📄 License
+## 📄 License
 
 This project is open-source and available under the MIT License.
 
-🙌 Author
+### 🙌 Author
 
 Asif Ansari
