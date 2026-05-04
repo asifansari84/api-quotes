@@ -19,15 +19,6 @@ REST API
 ⚡ Fast and lightweight performance
 🔄 Real-time data fetching using API
 🧩 Clean and structured UI layout
-📱 Responsive design
-📁 Project Structure
-
-quotes-api/
-│── src
-──│── style.css
-──│── main.js
-│── index.html
-│── README.md
 
 ## 🚀 Getting Started
 
